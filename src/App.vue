@@ -36,12 +36,12 @@ import Edit from './components/Edit'
 import Firebase from 'firebase'
 
 let config = {
-  apiKey: 'AIzaSyASKXkoroHifKZoOBPr85TPOIRZaqOcdJo',
-  authDomain: 'ig-wombat.firebaseapp.com',
-  databaseURL: 'https://ig-wombat.firebaseio.com',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
   projectId: 'ig-wombat',
-  storageBucket: 'ig-wombat.appspot.com',
-  messagingSenderId: '189612520088'
+  storageBucket: '',
+  messagingSenderId: ''
 }
 
 let app = Firebase.initializeApp(config)
